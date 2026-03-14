@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+@layer utilities {
+  .animate-modal-enter {
+    animation: modal-enter 0.3s ease-out forwards;
+  }
+
+  @keyframes modal-enter {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

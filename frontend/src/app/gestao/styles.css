@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  .responsive-table thead th:nth-child(n+3):nth-child(-n+7),
+  .responsive-table tbody td:nth-child(n+3):nth-child(-n+7) {
+    display: none;
+  }
+  #table-to-export {
+    max-width: 90vw;
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-table thead th,
+  .responsive-table tbody td {
+    display: table-cell !important;
+  }
+  #table-to-export {
+    max-width: 90vw;
+    overflow-x: auto;
+  }
+}
+
+.responsive-table {
+  display: block;
+  width: 100%;
+  max-width: 90vw;
+  overflow-x: auto;
+}
+
+.responsive-table td,
+.responsive-table th {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 50;
+}

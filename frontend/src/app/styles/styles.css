@@ -1,0 +1,333 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('/images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* 50% de opacidade */
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 300px;
+    height: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+p, table {
+    color: #FFFFFF;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #ff6f61, #ffcc5c);
+}
+
+.text-primary-white {
+  color: #fff;
+}
+
+.logo {
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/* Estilização do Formulário de Login */
+.form-login {
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização da Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+}
+
+thead tr {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+tbody tr {
+  transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização do Modal */
+.modal {
+  max-width: 32rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+}
+
+/* Estilização dos Botões */
+button {
+  transition: background-color 0.3s ease;
+}
+
+.bg-[#ff6f61] {
+  background-color: #ff6f61;
+}
+
+.bg-[#ff6f61]:hover {
+  background-color: #ffcc5c;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.bg-blue-500:hover {
+  background-color: #2563eb;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.bg-red-500:hover {
+  background-color: #dc2626;
+}
+
+/* Animação de Fade-In (já existente) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25D366;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 15px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #20b858;
+  transform: scale(1.05);
+}
+
+.input-telefone {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-telefone:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.input-group {
+    flex: 1;
+}
+
+.login{
+    width: 28vw;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.name-input {
+    flex: 0 0 75%; /* 75% da linha */
+}
+
+.parish-input {
+    flex: 0 0 50%; /* 50% da linha */
+}
+
+.half-width {
+    flex: 0 0 50%; /* 50% da linha */
+}
+
+.movement-input {
+    flex: 0 0 50%; /* 50% da página */
+    width: 50%;
+}
+
+.prayer-group-input {
+    flex: 0 0 50%; /* 50% da página */
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.radio-group {
+    margin-bottom: 1.2rem;
+}
+
+.radio-group div {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Não preenche toda a largura */
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .name-input,
+    .parish-input,
+    .half-width,
+    .movement-input,
+    .prayer-group-input {
+        flex: 1 0 100%; /* Em telas pequenas, ocupam 100% */
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 70%; /* 70% da tela em telas grandes */
+    }
+}

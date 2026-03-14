@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Atualizado para ES2020 para melhor suporte a APIs modernas
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "forceConsistentCasingInFileNames": true, // Adicionado para evitar problemas de case-sensitivity
+    "noImplicitAny": true, // Reforça tipagem estrita
+    "noUnusedLocals": true, // Detecta variáveis não usadas
+    "noUnusedParameters": true, // Detecta parâmetros não usados
+    "baseUrl": ".", // Base para caminhos relativos
+    "paths": {
+      "@/*": ["./src/*"] // Mantém o suporte a caminhos absolutos
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
