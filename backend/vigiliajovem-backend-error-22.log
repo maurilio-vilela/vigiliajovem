@@ -1,0 +1,198 @@
+error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:60:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:60:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:62:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:62:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:75:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:75:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:75:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:75:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
+Erro ao processar inscrição: error: role "root" does not exist
+    at /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /www/wwwroot/vilelatech.com.br/gojesuseosenhor/vigiliajovem/backend/index.js:75:20 {
+  length: 96,
+  severity: 'FATAL',
+  code: '28000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'miscinit.c',
+  line: '755',
+  routine: 'InitializeSessionUserId'
+}
